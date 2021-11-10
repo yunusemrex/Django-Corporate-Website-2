@@ -1,0 +1,13 @@
+.env  
+.DS_Store
+.env
+db.sqlite3
+media
+media\team-images
+__pycache__
+.vscode
+images
+media
+images
+static\images
+.run

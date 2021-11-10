@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+{% include 'components/navbar.html' %}
+
+</div>
+</header><!-- End Header -->
+<br><br><br><br><br>
+      {% block inner %} 
+            
+      
+      {% endblock %}
+      </div>
+    </section>
+  </main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+{% include 'components/footer.html' %}
+
+</body>
+
+</html>
+{% endblock %}

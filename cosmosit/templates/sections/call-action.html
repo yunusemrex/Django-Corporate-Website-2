@@ -1,0 +1,14 @@
+{% load static %}
+<!-- ======= Cta Section ======= -->
+<section id="cta" class="cta">
+    <div class="container" data-aos="zoom-in">
+        {% for action in call_action %}
+      <div class="text-center">
+        <h3>{{ action.call_action_title }}</h3>
+        <p>{{ action.call_action_text }}</p>
+        <a class="cta-btn" href="#">Call To Action</a>
+      </div>
+      {% endfor %}
+
+    </div>
+  </section><!-- End Cta Section -->

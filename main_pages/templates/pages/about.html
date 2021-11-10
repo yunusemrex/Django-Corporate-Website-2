@@ -1,0 +1,12 @@
+{% extends 'sections/inner-page.html '%}
+{% block inner %}
+<div class="container" data-aos="fade-up">  
+  <div class="section-title">
+    <h2>{{ about.title }}</h2>  
+  </div>
+<p>
+    <strong> {{ about.content|safe}}</strong>
+</p>
+</div>
+
+{% endblock %}

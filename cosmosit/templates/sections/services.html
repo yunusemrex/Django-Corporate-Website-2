@@ -1,0 +1,66 @@
+{% load static %}
+ <!-- ======= Services Section ======= -->
+ <section id="services" class="services">
+    <div class="container" data-aos="fade-up">
+      {% for service in services %}
+
+      <div class="section-title">
+        <h2>{{ service.header1 }}</h2>
+        <p>{{ service.header2 }}</p>
+        {% endfor %}
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+            <h4><a href="">{{ details_s.1.title }}</a></h4>
+            <p>{{ details_s.1.detail }}</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><a href="">{{ details_s.2.title }}</a></h4>
+            <p>{{ details_s.2.detail }}</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-tachometer"></i></div>
+            <h4><a href="">{{ details_s.3.title }}</a></h4>
+            <p>{{ details_s.1.detail }}</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-world"></i></div>
+            <h4><a href="">{{ details_s.4.title }}</a></h4>
+            <p>{{ details_s.1.detail }}</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-slideshow"></i></div>
+            <h4><a href="">{{ details_s.5.title }}</a></h4>
+            <p>{{ details_s.1.detail }}</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-arch"></i></div>
+            <h4><a href="">{{ details_s.5.title }}</a></h4>
+            <p>{{ details_s.1.detail }}</p>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </section><!-- End Services Section -->
